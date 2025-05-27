@@ -1,0 +1,14 @@
+{
+  "id": 1,
+  "name": "Silhouette No.1 - Vermilion",
+  "description": "A tailored composition in motion...",
+  "price": 7999,
+  "images": [
+    "/assets/productCard/aux1.jpg",
+    "/assets/productCard/aux2.jpg",
+    "/assets/productCard/aux3.jpg"
+  ],
+  "video": "/assets/productCard/main.mp4",
+  "sizes": ["XS", "S", "M", "L", "XL"],
+  "inStock": true
+}
