@@ -20,8 +20,10 @@ const ProductCard = () => {
                             loop
                             muted
                             className="w-full h-full object-cover rounded-lg"
+                            preload="none" // lazy load video
                         >
                             <source src={data.video} type="video/mp4" />
+                            Your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
@@ -32,21 +34,15 @@ const ProductCard = () => {
                     </div>
                     {/* 3 images */}
                     <div className="grid grid-cols-3 gap-4">
-                        <img
-                            src={Image1}
-                            alt="Image 1"
-                            className="w-full h-auto object-cover"
-                        />
-                        <img
-                            src={Image2}
-                            alt="Image 2"
-                            className="w-full h-auto object-cover"
-                        />
-                        <img
-                            src={Image3}
-                            alt="Image 3"
-                            className="w-full h-auto object-cover"
-                        />
+                        {data.images.map((img, idx) => (
+                            <img
+                                key={idx}
+                                src={img}
+                                alt={`Product aux ${idx + 1}`}
+                                className="w-full h-auto object-cover"
+                                loading="lazy" // lazy load image
+                            />
+                        ))}
                     </div>
                     {/* horizontal line */}
                     <div className="py-16">

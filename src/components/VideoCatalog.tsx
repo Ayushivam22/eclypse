@@ -15,6 +15,7 @@ const VideoCatalog = () => {
                         muted
                         playsInline
                         className="w-full h-full object-cover rounded-lg"
+                        preload="none" // lazy load video
                     >
                         <source src={Video1} type="video/mp4" />
                         Your browser does not support the video tag.
@@ -26,6 +27,7 @@ const VideoCatalog = () => {
                             src={pic2}
                             alt=""
                             className="object-cover rounded-lg"
+                            loading="lazy" // lazy load image
                         />
                         <div className="text-4xl p-6 flex flex-col justify-end absolute inset-0 opacity-0 hover:opacity-100 hover:bg-black/60 transition-all duration-300 ease-in-out">
                         Premium wool blend in signature vermilion

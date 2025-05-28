@@ -19,6 +19,7 @@ const Hero = () => {
                     muted
                     playsInline
                     className="rounded-sm w-full"
+                    preload="none" // lazy load video
                 >
                     <source src={heroVideo} type="video/mp4" />
                     Your browser does not support the video tag.

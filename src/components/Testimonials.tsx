@@ -36,7 +36,7 @@ const Testimonials = () => {
                                         src={testimonial.image}
                                         alt={testimonial.author}
                                         className="w-full h-full object-cover object-top"
-                                        loading="lazy"
+                                        loading="lazy" // lazy load image
                                     />
                                 </div>
                             </div>
