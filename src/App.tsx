@@ -4,6 +4,7 @@ import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import ProductCard from "./components/ProductCard";
+import Testimonials from "./components/Testimonials";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Gallery />
                 <ProductCard />
                 <Dropdown />
+                <Testimonials />
             </div>
         </div>
     );
