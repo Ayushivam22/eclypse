@@ -1,31 +1,9 @@
 import { useState } from "react";
-import image1 from "../assets/testimonialPeople/1.jpg";
-import image2 from "../assets/testimonialPeople/2.jpg";
-import image3 from "../assets/testimonialPeople/3.jpg";
 import icon from "../assets/testimonialPeople/icon.png";
-
+import data from "../../dummyData.json";
 const Testimonials = () => {
     const [openIdx, setOpenIdx] = useState<number>(0);
-    const Testimonials = [
-        {
-            id: 1,
-            text: "This product changed my life!",
-            author: "John Doe",
-            image: image1,
-        },
-        {
-            id: 2,
-            text: "Absolutely fantastic! Highly recommend.",
-            author: "Jane Smith",
-            image: image2,
-        },
-        {
-            id: 3,
-            text: "Will buy again!",
-            author: "Sam Wilson",
-            image: image3,
-        },
-    ];
+    const Testimonials = data.testimonials;
     return (
         <div className="w-full">
             <div className=" text-xl my-6 text-gray-400 w-full tracking-widest">

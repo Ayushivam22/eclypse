@@ -1,14 +1,34 @@
 {
   "id": 1,
   "name": "Silhouette No.1 - Vermilion",
-  "description": "A tailored composition in motion...",
+  "description": "A tailored composition in motion. Cut from structured wool with a sculpted shoulder and softened hem, this piece captures presence without force. Worn here in the stillness of a city in motion.",
   "price": 7999,
   "images": [
-    "/assets/productCard/aux1.jpg",
-    "/assets/productCard/aux2.jpg",
-    "/assets/productCard/aux3.jpg"
+    "/src/assets/productCard/aux1.jpg",
+    "/src/assets/productCard/aux2.jpg",
+    "/src/assets/productCard/aux3.jpg"
   ],
-  "video": "/assets/productCard/main.mp4",
+  "video": "/src/assets/productCard/main.mp4",
   "sizes": ["XS", "S", "M", "L", "XL"],
-  "inStock": true
+  "inStock": true,
+  "testimonials": [
+        {
+            "id": 1,
+            "text": "This product changed my life!",
+            "author": "John Doe",
+            "image": "./src/assets/testimonialPeople/1.jpg"
+        },
+        {
+            "id": 2,
+            "text": "Absolutely fantastic! Highly recommend.",
+            "author": "Jane Smith",
+            "image": "./src/assets/testimonialPeople/2.jpg"
+        },
+        {
+            "id": 3,
+            "text": "Will buy again!",
+            "author": "Sam Wilson",
+            "image": "./src/assets/testimonialPeople/3.jpg"
+        }
+    ]
 }
