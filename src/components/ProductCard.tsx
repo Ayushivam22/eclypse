@@ -1,6 +1,4 @@
-import Image1 from "../assets/productCard/aux1.jpg";
-import Image2 from "../assets/productCard/aux2.jpg";
-import Image3 from "../assets/productCard/aux3.jpg";
+
 import data from "../../dummyData.json"
 
 const ProductCard = () => {
