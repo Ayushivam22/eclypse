@@ -10,7 +10,7 @@ const ProductCard = () => {
                 Silhouette No.1- Vermilion
             </div>
             {/* ProductCard */}
-            <div className="w-full bg-amber-100 flex items-stretch">
+            <div className="w-full bg-white flex items-stretch">
                 {/* Left half */}
                 <div className="w-1/2">
                     <div className="aspect-[3/4] w-full h-full">
