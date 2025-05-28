@@ -40,19 +40,19 @@ const Testimonials = () => {
                         onClick={() => setOpenIdx(idx)}
                     >
                         <div className=" flex justify-between items-stretch">
-                            <div className={`transform-all flex items-center duration-300 text-5xl ${isActive ? "opacity-100" : "opacity-0"}`}>
+                            <div className={`transform-all flex items-center duration-300 text-3xl md:text-5xl ${isActive ? "opacity-100" : "opacity-0"}`}>
                                 " {testimonial.text} "
                             </div>
-                            <div className="flex  items-center gap-18">
-                                <div className={`${isActive ? "inline-block": "hidden"}`}>
+                            <div className="flex items-center gap-8">
+                                <div className="w-6 flex items-center justify-center">
                                     <img
                                         src={icon}
                                         alt="icon"
-                                        className="w-12 h-12 object-cover rotate-270"
+                                        className={`${isActive?"inline-block":"hidden"} w-full h-full object-contain rotate-270`}
                                         loading="lazy"
                                     />
                                 </div>
-                                <div className={`aspect-square h-50 w-50 overflow-hidden rounded-full flex-shrink-0 transition-all duration-300
+                                <div className={`aspect-square h-24 w-24 overflow-hidden rounded-full flex-shrink-0 transition-all duration-300
                         ${isActive ? "scale-100 opacity-100" : "scale-70 opacity-50"}`}>
                                     <img
                                         src={testimonial.image}
@@ -67,6 +67,8 @@ const Testimonials = () => {
                     </div>
                 );
             })}
+            {/* horizontal line */}
+            <div className="h-[1px] bg-gray-700 my-12"></div>
         </div>
     );
 };

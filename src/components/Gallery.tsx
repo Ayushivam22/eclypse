@@ -15,7 +15,7 @@ const Gallery = () => {
                         <img
                             src={arrowIcon}
                             alt="Arrow Icon"
-                            className="invert h-3"
+                            className="h-3"
                         />
                     </div>
                 </div>

@@ -1,5 +1,6 @@
 import "./App.css";
 import Dropdown from "./components/Dropdown";
+import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -16,6 +17,7 @@ function App() {
                 <ProductCard />
                 <Dropdown />
                 <Testimonials />
+                <Footer />
             </div>
         </div>
     );

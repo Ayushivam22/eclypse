@@ -21,7 +21,7 @@ const Dropdown = () => {
               />
             </div>
           </div>
-          <div className={`transition-all duration-500 ease-in-out overflow-hidden text-lg text-gray-700 mb-4
+          <div className={`transition-all duration-500 ease-in-out overflow-hidden text-lg text-gray-400 mb-4
               ${openIdx === idx ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'}`}>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum commodi odio eos aliquid, placeat fugiat quod! Temporibus eligendi dolores fugit tenetur, excepturi quam quibusdam mollitia corporis possimus quas! Explicabo aperiam reprehenderit corrupti hic fugiat porro rerum et velit ducimus. Adipisci cumque error quae voluptatibus dolorum accusantium ipsam et reiciendis quo.
           </div>
